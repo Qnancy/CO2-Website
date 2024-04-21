@@ -1,0 +1,67 @@
+ .label {
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  
+  .input {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 60px;
+    font-weight: bold;
+  }
+
+  .graph {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px;
+    flex-wrap: wrap;
+  }
+
+  .chart {
+    margin-left: 60px;
+  }
+  
+  @media (max-width: 768px) {
+    .label {
+      margin-right: 3px;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    .input {
+      width: 160px;
+      height: 25px;
+      font-size: 14px;
+    }
+  
+    .button {
+      width: 80px;
+      height: 25px;
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left: 30px;
+      text-align: center; 
+    }
+
+    .graph {
+      display: flex;
+      margin-top: 40px;
+      margin-left: 0px;
+      flex-wrap: wrap;
+    }
+  
+    .chart {
+      margin-left: 0px;
+    }
+  }

@@ -1,0 +1,53 @@
+const express = require('express');
+const userlogin = require('./user/login.js');
+const usercode = require('./user/code.js');
+const userregister = require('./user/register.js');
+const usershow = require('./user/show.js');
+const userpassword = require('./user/fixpassword.js');
+const useremail = require('./user/fixemail.js');
+const maplook = require('./map/find.js');
+const lookplace = require('./place/look.js');
+const fixplace = require('./place/fixplace.js');
+const addplace = require('./place/addplace.js');
+const LookPlace = require('./place/lookplace.js');
+const showmessage = require('./place/showmessage.js');
+const co2people = require('./statistic/co2_people.js');
+const place = require('./statistic/place.js');
+const picture = require('./statistic/picture.js');
+
+const app = express();
+const user_login = userlogin();
+const user_code = usercode();
+const user_register = userregister();
+const user_show = usershow();
+const user_password = userpassword();
+const user_email = useremail();
+const map_look = maplook();
+const look_place = lookplace();
+const fix_place = fixplace();
+const add_place = addplace();
+const Look_Place = LookPlace();
+const show_message = showmessage();
+const co2_people = co2people();
+const PLACE = place();
+const PICTURE = picture();
+
+app.use(user_login);
+app.use(user_code);
+app.use(user_register);
+app.use(user_show);
+app.use(user_password);
+app.use(user_email);
+app.use(map_look);
+app.use(look_place);
+app.use(fix_place);
+app.use(add_place);
+app.use(Look_Place);
+app.use(show_message);
+app.use(co2_people);
+app.use(PLACE);
+app.use(PICTURE);
+
+app.listen(8080, () => {
+  console.log('服务已启动,监听端口8080');
+});

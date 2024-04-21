@@ -1,0 +1,69 @@
+  .userinfocontainer {
+    margin-top: 30px;
+  }
+  
+  .titleheading {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .actionbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .actionbutton {
+    margin-right: 20px;
+    width: 200px;
+    display: inline-block;
+  }
+
+  .button {
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .table {
+    margin-top: 40px;
+  }
+
+  @media (max-width: 768px) {
+    .userinfocontainer {
+      margin-top: 10px;
+    }
+    
+    .titleheading {
+      font-size: 24px;
+      margin-left: 10px;
+    }
+    
+    .actionbuttons {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin-top: 10px;
+    }
+    
+    .actionbutton {
+      margin-right: 0;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    .button {
+        width: 150px;
+        margin-left: 90px;
+    }
+
+    .table {
+      font-size: 1px;
+    }
+  }

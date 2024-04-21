@@ -1,0 +1,98 @@
+.container {
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  
+  .title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .label {
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .input {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .customlabel {
+    width: 200px;
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 60px;
+    font-weight: bold;
+  }
+  
+  .descriptions {
+    margin-top: 20px;
+  }
+  
+  .select {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .table {
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+  
+    .title {
+      font-size: 18px;
+    }
+  
+    .label {
+      margin-right: 3px;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    .input {
+      width: 160px;
+      height: 25px;
+      font-size: 14px;
+    }
+  
+    .button {
+      width: 80px;
+      height: 25px;
+      margin-top: 30px;
+      font-size: 13px;
+      margin-left: 0px;
+      text-align: center; 
+    }
+  
+    .descriptions {
+      margin-top: 5px;
+    }
+  
+    .select {
+      width: 160px;
+      height: 25px;
+      font-size: 14px;
+    }
+  
+    .table {
+      margin-top: 10px;
+      font-size: 1px;
+      margin-left: -8px;
+    }
+  }
